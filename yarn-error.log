@@ -1,0 +1,37 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@16/16.13.0/libexec/node /opt/homebrew/bin/yarn add -D webpack
+
+PATH: 
+  /opt/homebrew/opt/python@3.10/bin:/opt/homebrew/Cellar/node@16/16.13.0/bin:/opt/homebrew/opt/node@16/bin:/Users/albert/perl5/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/node@16/bin:/Users/albert/perl5/bin:/usr/local/opt/python/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/albert/projects/learn/learn-webpack/package.json: Unexpected token } in JSON at position 134
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "learn-webpack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "<albertdeguzma@gmail.com>",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
